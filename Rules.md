@@ -65,9 +65,3 @@ Source of truth for game logic. The app implements sections 1, 6, 7 and 8. Secti
   - Enter each player's hand points and who went out. The app deducts hand points and starts a new round.
   - The app then checks the target and decides the winner.
 - The phone can undo the last meld, reopen the last round, or edit any finished round.
-
-## Open question
-- Rule 3: when more than 1 card is taken from the open deck, which card must be melded?
-  Example: the open deck has A on top, then B, then C. A player takes A, B and C.
-  Is the card that must be melded C (the deepest card taken) or A (the top card)?
-  The app does not check this, so scoring is not affected.
