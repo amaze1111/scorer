@@ -1,0 +1,8 @@
+{
+  "_comment": "Mirrors Rules.md. Edit, then rebuild and reinstall the app on the PHONE. Scoring formulas live in ScoreEngine.kt.",
+  "gameName": "Rummy",
+  "minPlayers": 2,
+  "maxPlayers": 3,
+  "targetOptions": [100, 200],
+  "cardsPerPlayer": { "2": 13, "3": 7 }
+}
